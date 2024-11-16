@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess number</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+        <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <div class="main">
+        <div class="nav flex">
+            <i class="ri-menu-line font"></i>
+            <h1>Guess the number</h1>
+            <i class="ri-youtube-line font"></i>
+        </div>
+        <form class="flex">
+            <div class="container flex">
+                <p>Enter a guess between 0 to 100</p>
+                <input type="number" placeholder="Enter a number" min="0" max="100" required>
+                <div class="btn-box flex">
+                    <button class="submit-btn">Submit</button>
+                    <button class="start-btn">Start Game</button>
+                </div>
+                <div class="box">
+                    <p class="result"></p>
+                    <p class="all-guesses"></p>
+                </div>
+            </div>
+        </form>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
